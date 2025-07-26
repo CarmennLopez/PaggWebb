@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de ejemplo para demostrar la integración de HTML y CSS3.">
+    <meta name="keywords" content="HTML, CSS3, ejemplo, integración, web">
+    <title>Mi Página Web - Integración CSS3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <header>
+        <h1>Bienvenido a Mi Página Web</h1>
+        <p>Explorando la integración de HTML y CSS3</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#informacion">Información</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Introducción</h2>
+            <p>Esta es una página de ejemplo para demostrar la integración de CSS3 en un documento HTML. A medida que avancemos, aplicaremos diferentes estilos para mejorar la apariencia.</p>
+            <p>El objetivo principal es que te familiarices con cómo vincular hojas de estilo externas y cómo aplicar reglas CSS a elementos específicos de tu HTML.</p>
+        </section>
+
+        <section id="informacion">
+            <h2>Acerca de mí</h2>
+            <div class="card">
+                <h3>Carmen Azucena Lopez Oscal</h3>
+                <p>Carnet: 1890-22-3067</p>
+                <p>¡Hola! Soy una estudiante apasionada por el desarrollo web y estoy aprendiendo a desarrolar</p>
+            </div>
+        </section>
+
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Carmen Lopez. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
